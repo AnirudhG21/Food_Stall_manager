@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Stall Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Food Stall Manager</h1>
+    <div class="container">
+        <form id="item-form">
+            <input type="text" id="item-name" placeholder="Item Name" required>
+            <input type="number" id="item-price" placeholder="Price (INR)" required>
+            <button type="submit">Add Item</button>
+        </form>
+
+        <div id="items-list"></div>
+        <div id="total-amount">Total Sales Amount: ₹0</div>
+    </div>
+
+    <script src="script.js"></script>
+    <footer id="footer">Thank You!! </footer>
+</body>
+</html>
